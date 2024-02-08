@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+.container {
+  width: 50vw;
+  min-height: 60vh;
+  background: #303030;
+  box-shadow: 3px 0px 20px #5f5959;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .containerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+

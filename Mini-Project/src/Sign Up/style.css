@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100vw;
+  position: absolute;
+  height: 100vh;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  width: 60vw;
+  height: 65vh;
+  inset: -2px;
+  background-color: #222;
+  position: relative;
+  border-radius: 15px;
+  border-color: black;
+  box-shadow: 0 5px 25px #8a868640;
+  /* box-shadow: 0 5px 25px rgba(203, 201, 201, 0.322); */
+  display: flex;
+}
+
+/* Register-Page  */
+.regist-page {
+  width: 30vw;
+  /* height: 65vh; */
+  border-radius: 15px;
+  /* background-color: beige; */
+}
+.regist-page > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 3vh;
+  color: #45f3ff;
+  padding-bottom: 7vh;
+}
+.regist-page > ul > li {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 2.5vh;
+}
+input {
+  /* font-size: 1.1rem;
+  border-radius: 20px; */
+  position: relative;
+  z-index: 100000;
+  inset: -2px;
+  /* background: #292929;    */
+  outline: none;
+  border: 2px solid #000;
+  width: 75%;
+  padding: 8px 14px;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+input::placeholder {
+  color: #fff;
+  opacity: 0.5rem;
+}
+.submit-btn > button {
+  width: 15vw;
+  height: 6vh;
+  border: 2px solid #363434;
+  border-radius: 20px;
+  margin: 6vh 7.5vw;
+  background-color: #45f3ff;
+  filter: drop-shadow(0 0 5px #45f3ff);
+  color: black;
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+/* .submit-btn:hover {
+  transform: scale(1.05);
+  font-weight: 600;
+  border: 2px solid #363434;
+} */
+/* Face- cam Box*/
+.face-cam {
+  width: 30vw;
+  /* height: 45vh; */
+  border-radius: 15px;
+  background-size: cover;
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+  /* background-color: rgb(252, 85, 127); */
+}
+.face-cam > .picture {
+  width: 20vw;
+  height: 35vh;
+  /* background-color: red; */
+  margin-top: 40px;
+  background-image: url(./image/scanner.gif);
+  background-size: cover;
+  background-position-x: center;
+  margin-left: 5rem;
+}
+.picture-btn {
+  width: 15vw;
+  height: 6vh;
+  border-radius: 20px;
+  margin: 10vh 7.5vw;
+  background-color: #45f3ff;
+  filter: drop-shadow(0 0 5px #45f3ff);
+  color: black;
+  text-align: center;
+  font-size: 1.9rem;
+  cursor: pointer;
+  border: 2px solid #363434;
+}
+.picture-btn:hover {
+  transform: scale(1.05);
+  font-weight: 600;
+  border: 2px solid #363434;
+}
+
+#move-back{
+    width: 5vw;
+    /* height: -10vh; */
+    text-align: center;
+    line-height: 1px;
+    /* background-color: red; */
+    font-size: 3rem;
+    margin-left: -2.5vw;
+    margin-top: -5vh;
+    cursor: pointer;
+}
+#move-back:hover{
+    transform: scale(1.6);
+    /* margin-left: 5vw;
+    margin-top: -6vh; */
+    filter: drop-shadow(0 0 5px #45f3ff);
+}
